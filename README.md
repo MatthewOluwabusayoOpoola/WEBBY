@@ -1,8 +1,8 @@
 # WEBBY
-Online Watch Store
+Online Watch Store. 
 
 ## Production
-Built use React Frontend (Clinet) and Strapi for Backend (Server).
+Built use React Frontend (Clinet), Strapi for Backend (Server) and Add Stripe payment.
 
 ## Dependencies
 - Redux-toolkit
