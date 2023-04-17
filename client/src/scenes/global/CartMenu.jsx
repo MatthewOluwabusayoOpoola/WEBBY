@@ -67,7 +67,7 @@ const CartMenu = () => {
                     <img
                       alt={item?.name}
                       width="123px"
-                      height="164px"
+                      height="123px"
                       src={`http://localhost:1337${item?.attributes?.image?.data?.attributes?.formats?.medium?.url}`}
                     />
                   </Box>
