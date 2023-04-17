@@ -1,5 +1,4 @@
 import ShoppingList from "./ShoppingList";
-import BrandList from "./BrandList";
 import Subscribe from "./Subscribe";
 import MainCarousel from "./MainCarousel";
 
