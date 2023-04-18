@@ -2,7 +2,7 @@
 Online Luxury Watch Store. 
 
 ## Production
-Built use React Frontend (Clinet), Strapi for Backend (Server) and Add Stripe payment.
+Built use React Frontend (Client), Strapi for Backend (Server) and Add Stripe payment.
 
 ## Dependencies
 - Redux-toolkit
