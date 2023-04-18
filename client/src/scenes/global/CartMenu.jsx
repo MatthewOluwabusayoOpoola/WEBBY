@@ -44,7 +44,7 @@ const CartMenu = () => {
       backgroundColor="rgba(0, 0, 0, 0.4)"
       position="fixed"
       zIndex={10}
-      width="100vh"
+      width="100vw"
       height="100%"
       left="0"
       top="0"
@@ -54,7 +54,7 @@ const CartMenu = () => {
         position="fixed"
         right="0"
         bottom="0"
-        width={breakPoint ? "400px" : "20vh"}
+        width={breakPoint ? "450px" : "100vw"}
         height="100%"
         backgroundColor="white"
       >
