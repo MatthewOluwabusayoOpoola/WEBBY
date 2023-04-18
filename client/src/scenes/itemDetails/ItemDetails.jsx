@@ -138,13 +138,14 @@ const ItemDetails = () => {
           Related Products
         </Typography>
         <Box
-          mt="20px"
-          display="flex"
-          flexWrap="wrap"
+          margin="0 auto"
+          display="grid"
+          gridTemplateColumns="repeat(auto-fill, 300px)"
+          justifyContent="space-around"
+          rowGap="20px"
           columnGap="1.33%"
-          justifyContent="space-between"
         >
-          {items.slice(0, 4).map((item, i) => (
+          {items.slice(0, 3).map((item, i) => (
             <Item key={`${item.name}-${i}`} item={item} />
           ))}
         </Box>
