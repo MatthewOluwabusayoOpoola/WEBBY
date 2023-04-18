@@ -112,7 +112,7 @@ const MainCarousel = () => {
               bottom="0px"
               borderRight="10px"
               height="100%"
-              width="100%"
+              width="33%"
               left={isNonMobile ? "1" : "0"}
               right={isNonMobile ? undefined : "0"}
               margin={isNonMobile ? undefined : "0 auto"}
@@ -129,7 +129,7 @@ const MainCarousel = () => {
               bottom="0px"
               borderRight="10px"
               height="100%"
-              width="100%"
+              width="33%"
               left={isNonMobile ? "1" : "0"}
               right={isNonMobile ? undefined : "0"}
               margin={isNonMobile ? undefined : "0 auto"}
@@ -148,7 +148,7 @@ const MainCarousel = () => {
               bottom="0px"
               borderRight="10px"
               height="100%"
-              width="100%"
+              width="33%"
               left={isNonMobile ? "1" : "0"}
               right={isNonMobile ? undefined : "0"}
               margin={isNonMobile ? undefined : "0 auto"}

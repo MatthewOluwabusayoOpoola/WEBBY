@@ -1,4 +1,11 @@
-import { Box, Button, Divider, IconButton, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Divider,
+  IconButton,
+  Typography,
+  useMediaQuery,
+} from "@mui/material";
 import { useSelector, useDispatch } from "react-redux";
 import CloseIcon from "@mui/icons-material/Close";
 import AddIcon from "@mui/icons-material/Add";
@@ -29,6 +36,8 @@ const CartMenu = () => {
     return total + item.count * item.attributes.price;
   }, 0);
 
+  const breakPoint = useMediaQuery("(min-width:600px)");
+
   return (
     <Box
       display={isCartOpen ? "block" : "none"}
@@ -45,7 +54,7 @@ const CartMenu = () => {
         position="fixed"
         right="0"
         bottom="0"
-        width="max(380px, 30vh)"
+        width={breakPoint ? "400px" : "20vh"}
         height="100%"
         backgroundColor="white"
       >
