@@ -63,7 +63,7 @@ const MainCarousel = () => {
             alt={`carousel-${index}`}
             style={{
               width: "100%",
-              height: "700px",
+              height: "600px",
               objectFit: "cover",
               backgroundAttachment: "fixed",
             }}
@@ -75,7 +75,7 @@ const MainCarousel = () => {
             backgroundColor="rgb(0, 0, 0, 0.4)"
             position="absolute"
             padding="20px"
-            top="30%"
+            top="25%"
             width="50%"
             alignItems="center"
             left={isNonMobile ? "25%" : "0"}

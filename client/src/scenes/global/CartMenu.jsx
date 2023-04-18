@@ -35,7 +35,7 @@ const CartMenu = () => {
       backgroundColor="rgba(0, 0, 0, 0.4)"
       position="fixed"
       zIndex={10}
-      width="100%"
+      width="100vh"
       height="100%"
       left="0"
       top="0"
@@ -45,11 +45,11 @@ const CartMenu = () => {
         position="fixed"
         right="0"
         bottom="0"
-        width="max(400px, 30%)"
+        width="max(380px, 30vh)"
         height="100%"
         backgroundColor="white"
       >
-        <Box padding="30px" overflow="auto" height="100%">
+        <Box padding="5%" overflow="auto" height="100%">
           {/* HEADER */}
           <FlexBox mb="15px">
             <Typography variant="h3">SHOPPING BAG ({cart.length})</Typography>
