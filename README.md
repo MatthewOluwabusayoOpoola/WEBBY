@@ -7,7 +7,7 @@ Built use React Frontend (Clinet), Strapi for Backend (Server) and Add Stripe pa
 ## Dependencies
 - Redux-toolkit
 - material UI
-- Formix
+- Formik
 - Css Modules
 
 ## A wounderful Ecommerce Project..
