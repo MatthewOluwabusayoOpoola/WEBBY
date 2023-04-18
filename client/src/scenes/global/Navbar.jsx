@@ -1,5 +1,11 @@
 import { useDispatch, useSelector } from "react-redux";
-import { Badge, Box, IconButton, Typography } from "@mui/material";
+import {
+  Badge,
+  Box,
+  IconButton,
+  Typography,
+  useMediaQuery,
+} from "@mui/material";
 import {
   PersonOutline,
   ShoppingBagOutlined,
@@ -12,6 +18,7 @@ function Navbar() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const cart = useSelector((state) => state.cart.cart);
+  const breakPoint = useMediaQuery("(min-width:600px)");
 
   return (
     <Box
@@ -34,7 +41,7 @@ function Navbar() {
         alignItems="center"
       >
         <Box
-          display="flex"
+          display={!breakPoint ? "none " : "flex"}
           justifyContent="space-between"
           columnGap="20px"
           zIndex="2"

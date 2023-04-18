@@ -118,6 +118,7 @@ const MainCarousel = () => {
               margin={isNonMobile ? undefined : "0 auto"}
             >
               <Typography variant="h3">BRACELET</Typography>
+              <Typography variant="h4">-- coming soon --</Typography>
             </Box>
             <Box
               color="white"
@@ -153,6 +154,7 @@ const MainCarousel = () => {
               margin={isNonMobile ? undefined : "0 auto"}
             >
               <Typography variant="h3">STRAPS</Typography>
+              <Typography variant="h4">-- coming soon --</Typography>
             </Box>
           </Box>
         </Box>

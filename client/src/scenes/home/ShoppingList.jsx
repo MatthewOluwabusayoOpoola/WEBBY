@@ -31,15 +31,12 @@ const ShoppingList = () => {
     getItems();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const topRatedItems = items.filter(
-    (item) => item.attributes.category === "topRated"
-  );
-  const newArrivalsItems = items.filter(
-    (item) => item.attributes.category === "newArrivals"
-  );
-  const bestSellersItems = items.filter(
-    (item) => item.attributes.category === "bestSellers"
-  );
+  const topRatedItems =
+    items.filter((item) => item.attributes.category === "topRated") || null;
+  const newArrivalsItems =
+    items.filter((item) => item.attributes.category === "newArrivals") || null;
+  const bestSellersItems =
+    items.filter((item) => item.attributes.category === "bestSellers") || null;
 
   return (
     <Box width="80%" margin="80px auto">
