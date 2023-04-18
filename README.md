@@ -12,8 +12,8 @@ Built use React Frontend (Client), Strapi for Backend (Server) and Add Stripe pa
 - stripe
 
 ## Hosted
-Server-Side on Render and cloudinary
-Client-Side on Netlify
+- Server-Side on Render and cloudinary
+- Client-Side on Netlify
 
 ## A wounderful Ecommerce Project..
 
